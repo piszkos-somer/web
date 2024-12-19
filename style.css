@@ -1,0 +1,67 @@
+
+.focim {
+
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.alcim {
+
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.navbar-img {
+    width: 50px;
+}
+.paddingos {
+    padding-top: 200px;
+}
+.szoveg {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+.szovegesrow  {
+    padding-top: 200px;
+}
+
+.szovegesrow2  {
+    margin-top: 200px;
+}
+.vonal {
+    width: 3px;
+    background-color: rgb(179, 179, 179);
+
+}
+.listagomb {
+    background: rgb(241,241,160);
+background: linear-gradient(132deg, rgba(241,241,160,1) 35%, rgba(254,255,5,1) 65%);
+color: black;
+font-weight: 200;
+
+font-family: sans-serif;
+}
+.card {font-family: sans-serif; 
+
+
+--bs-card-border-color: #C3CBD2;
+}
+.space {
+    height:170px
+}
+.smallspace {
+    height:90px
+}
+
+.annusimg {
+    width: 500px;
+}
+
+.leiras {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: auto;
+}
+.nev {
+    font-size: 35px;
+}

@@ -5,14 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>A legjobb magyar kalapácsvetők</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
     
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
 
+        <img src="favicon.png" class="navbar-img" alt="">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aloldalak/lista.html">Kalapácsvetők</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="container paddingos">
+  <div class="row text-center">
+    <div class="col-12 mt-5"><h1 class="display-1 focim text-center" style="font-weight: 900;">A legjobb magyar kalapácsvetők</h1>
+<div class="alcim pt-4"> Készítette: Kabai Zsombor, Perák Attila, Haberle Tamás </div>
+      
+    </div>
+  </div>
+
+  <div class="row szovegesrow">
+    <div class="col-lg-1">
+      <div class="vonal h-100"></div>
+    </div>
+    <div class="col-lg-11"><p class="szoveg"> A magyar kalapácsvetés története gazdag hagyományokkal rendelkezik, és kiemelkedő sikereket ért el a nemzetközi versenyeken. A sportág kezdetei Magyarországon az 1920-as évekre nyúlnak vissza, amikor a kalapácsvetés már az atlétikai versenyek része volt. Az első nagy nemzetközi sikerre a magyar sportolók 1930-as években tettek szert. Az 1950-es években a sportágot Szilágyi László és más neves sportolók képviselték, akik nemzetközi versenyeken is eredményesek voltak.
+
+      A legnagyobb sikereket a 1980-as években érték el a magyar kalapácsvetők, amikor a világ élvonalában szereplő sportolók, mint például a háromszoros olimpiai bajnok, Kazi Tamás és a világbajnok Gécsek Tibor, meghatározó szereplőivé váltak a nemzetközi kalapácsvető versenyeknek. A magyar kalapácsvetés tehát a sportág történetében jelentős szerepet játszott, és továbbra is élvonalbeli eredményekkel büszkélkedhet.</p>
+</div>  
+  </div>
+<div class="space"></div>
+  <div class="row rounded border-warning border szovegesrow2 py-3 mt-5">
+    <div class="col-lg-6 col-xs-12">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/slideshow-1.jpg" class="d-block w-100 rounded" alt="">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/slideshow-2.jpg" class="d-block w-100 rounded" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slideshow-3.jpg" class="d-block w-100 rounded" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-xs-12">
+      <div class="card border-0 text-center w-100 h-100">
+        <div class="card-body">
+          <h1 class="card-title">A magyar kalapácsvetők</h1>
+          <p class="my-5">Ismerje meg a leghíresebb és legtehetségesebb kalapácsvetőinket!</p>
+          <a href="aloldalak/lista.html" class="btn listagomb"><h2>A kalapácsvetők listája</h2></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  © 2024 Copyright: a SFL Technologies csapata
+<br>
+  <a class="text-reset fw-bold" href="https://idp.e-kreta.hu/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dkreta-web%26response_type%3Dcode%26scope%3Dopenid%2520email%26state%3DOpenIdConnect.AuthenticationProperties%253D6gxceBWNXMXpzLPi3MMJBnfrq7l8CEjFjo4e9DJq3CxdlNGB3l60tNiOVkhu8ySn6UQGK1yp5QaQiqPl4zz90os0NtWJ-jQ5kxeSbwRAG1bKFqByRnesDw3eyY7wY91AjMtA_7xqA43zoxmMrz9vXA%26response_mode%3Dform_post%26nonce%3D638702427085125358.YjgxNmVjZDktYWZlOS00NTJiLWEzZjUtMzliOGFmZGI4YzY3NjVhNGUwZmEtMTBkMi00YzA0LWI2MGMtOGRlZmM1ZjU1M2Zi%26institute_code%3Dbgaszc-pestszentlorinci%26institute_data%3DeyJuZXh0X3VwZGF0ZV9kYXRlX3RpbWUiOiIyMDI1LjAxLjE2LiAyMjowMCIsImlzX3N6aXJfaW5zdGl0dXRlIjpmYWxzZSwiaXNfbGljZW5jZV92YWxpZCI6dHJ1ZSwiaXNfYXJjaGl2ZSI6ZmFsc2UsImlzX2Nzb2trZW50ZXR0X2dvbmR2aXNlbG8iOnRydWUsImlzX2ludGV6bWVueV9yb3ZpZG5ldiI6dHJ1ZSwiaXNfc3VjY2Vzc19hdXRob3JpemVkX2RhdGUiOmZhbHNlfQ%253D%253D%26prompt%3Dlogin%26redirect_uri%3Dhttps%253A%252F%252Fbgaszc-pestszentlorinci.e-kreta.hu%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0%26suppressed_prompt%3Dlogin">Értékelje munkánkat</a>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="js.js"></script>
 </body>
 </html>
